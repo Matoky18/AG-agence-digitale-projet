@@ -1044,7 +1044,9 @@ body.menu-open {
     overflow-y: hidden;
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 
 /* section home */
@@ -1123,7 +1125,8 @@ body.menu-open {
     justify-content: center;
     padding-inline: 2vw;
     margin-top: 2vh;
-    width: 100%;
+    /* background: #bd4747; */
+    width: 95%;
 }
 
 
@@ -1847,11 +1850,11 @@ header nav.active ul li a {
     flex-direction: column;
     background: var(--main-marron);
     color: var(--main-white);
-    width: 100%;
+    width: 100vw;
     position: relative;
     align-items: center;
     font-family: "inria serif";
-    padding: 15px;
+    /* padding: 15px; */
     /* height: 250px; */
 }
 
