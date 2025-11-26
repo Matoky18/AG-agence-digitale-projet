@@ -377,6 +377,12 @@ nav ul {
 
 }
 
+.itemOver {
+    /* background: #7e7676; */
+    display: flex;
+    
+    align-items: center;
+}
 
 
 .itemAbout {
@@ -994,28 +1000,31 @@ height: auto;
 }
 
 
-
+body.menu-open {
+    height: 100vh;
+    overflow-y: hidden;
+}
 
 
 
 
 /* section home */
 
-.homeheader{
+/* .homeheader{
     min-height: 100vh;
     height: fit-content;
     width: 100vw;
-}
+} */
 
 .container-home .hero .text h1 {
     display: none;
 }
 
-header {
+/* header {
     width: 100vw;
        
     background: var(--main-white);
-}
+} */
 
 .container-home {
     display: flex;
@@ -1087,18 +1096,24 @@ header nav {
     display: none;
 }
 
+
+header {
+    /* background: rgb(189, 120, 120); */
+    height: -100vh;
+}
+
 header nav.active {
     position: fixed;
     justify-content: center;
     align-items: center;
-    height: calc(100vh);
-    /* margin-top: -20px; */
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    
     display: flex;
     background: rgba(209, 201, 194, 0.932);
     backdrop-filter : blur(3px);
     z-index: 100;
-    overflow: hidden;
+    overflow: hidden!important;
     
 }
 
@@ -1319,10 +1334,7 @@ header nav.active ul li a {
 
 }
 
-.descriEndContent {
-    /* background: #05b2b8; */
-    
-}
+
 
 .footer-about {
     /* position: fixed;

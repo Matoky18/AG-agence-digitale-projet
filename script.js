@@ -10,12 +10,14 @@ const itemAbout = document.querySelector(".itemAbout");
 const serviceMobileIcon = document.querySelector(".titreIcon")
 // const showVisibility = document.querySelector(".showVisibility")
 const itemShow = document.querySelectorAll(".item-show")
+const body = document.querySelector("body");
 
 
 
 bouttonMenu.addEventListener("click", function ToggleMenu() {
     
     blockMenu.classList.toggle("active")
+    body.classList.toggle("menu-open")
     if (blockMenu.classList.contains("active")) {
         bouttonMenu.classList.remove('bx-menu')
         bouttonMenu.classList.add('bx-x')
