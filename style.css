@@ -184,6 +184,9 @@ nav ul li a:hover {
     color: var(--main-white);
     font-family: "nunito", serif;
     /* font-size: 13px; */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+
+
 }
 
 .connectBouton:hover {
@@ -490,6 +493,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
     position: relative;
     /* margin-bottom: 15vh; */
     top: 15vh;
@@ -512,7 +516,7 @@ nav ul {
 .container-service {
     display: flex;
     flex-direction: column;
-    justify-content: c;
+    justify-content: center;
     min-height: 100vh;
     width: 100vw;
     /* padding: 0px; */
