@@ -458,7 +458,7 @@ nav ul {
 .preview-icon:hover {
     cursor: pointer;
     border: none;
-     transform:  scale(1.1);
+     transform: rotate(180deg) scale(1.1);
     transition: 0.5s all;
     border-radius: 100%;
     /* transform: rotate(180deg); */
@@ -469,7 +469,7 @@ nav ul {
     cursor: pointer;
     border: none;
    
-    transform: rotate(180deg) scale(1.1);
+    transform: scale(1.1);
     transition: 0.5s all;
     /* box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2); */
     border-radius: 100%;
