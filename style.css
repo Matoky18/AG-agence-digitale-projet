@@ -176,7 +176,7 @@ nav ul li a:hover {
 .connectBouton {
     /* display: none; */
     position: fixed;
-    right: -10vw;
+    left: 99.5%;
     height: 3.5vw;
     min-height: 50px;
     width:10vw;
