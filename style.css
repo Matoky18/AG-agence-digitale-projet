@@ -102,7 +102,9 @@ h1 {
 .homeheader header {
     position: fixed;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    
     /* margin-inline: 15vw ; */
     top: 0px;
     /* justify-content: center; */
@@ -110,9 +112,10 @@ h1 {
     height: 3.5vw;
     min-height: 50px;
     /* padding-inline: 2vw; */
+    justify-content: center;
     align-items: center;
     width: 70vw;
-    left: 50%;
+    left: 50vw;
     transform: translate(-50%,0%);
     background: rgba(68, 54, 47, 0.34);
     backdrop-filter: blur(10px);
@@ -171,8 +174,9 @@ nav ul li a:hover {
 
 
 .connectBouton {
-    position: relative;
-    left: 10vw;
+    /* display: none; */
+    position: fixed;
+    right: -10vw;
     height: 3.5vw;
     min-height: 50px;
     width:10vw;
@@ -215,7 +219,7 @@ nav ul li a:hover {
     position: fixed;
     /* right: 3.55vw; */
     top: -6px;
-    left: -51px;
+    right: 95.5%;
     width: auto;
     height: 4.1vw;
     min-height: 60px;
@@ -1108,6 +1112,7 @@ body {
     right: 20px;
     font-size: 40px;
     z-index: 100;
+    
 }
 
 .bx-x {
