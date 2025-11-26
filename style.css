@@ -682,6 +682,7 @@ nav ul {
     /* height: 100vh; */
     /* width: 100vw; */
     padding: 20px;
+    
     /* padding-left: 10vw; */
     /* background: #829c0e; */
 }
@@ -1033,8 +1034,8 @@ textarea {
     position: fixed;
     top: 20px;
     left: 5px;
-width: 60px;
-height: auto;
+    width: 60px;
+    height: auto;
 }
 
 
@@ -1593,7 +1594,7 @@ header nav.active ul li a {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    
+    padding-top: 50px;
     height: fit-content;
     background: var(--main-white);
     /* background: #ec07a8d0; */
@@ -1609,7 +1610,7 @@ header nav.active ul li a {
     height: 50px;
     /* background: #b9ff15; */
     font-family: "nunito",serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .hero-item-avis {
