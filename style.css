@@ -22,6 +22,7 @@ html {
 
 body {
     background: var(--main-white);
+    overflow-x: hidden;
 }
 
 .container {
@@ -41,10 +42,12 @@ nav ul li a {
 }
 
 .container-home .hero .text h1 {
-    
+    /* background: #c54b4b; */
     color: var(--main-vert); 
     font-family: "Cookie", cursive;
     font-weight: normal;
+    
+    /* font-size: ; */
 }
 .container-home .hero .text h3 {
     
@@ -153,6 +156,7 @@ nav ul li {
     list-style: none;
     
 }
+
 nav ul li a {
     font-size: clamp(13px,1.2vw,18px);    
     margin-left: 4.5vw;
@@ -196,6 +200,14 @@ nav ul li a:hover {
 }
 
 
+
+
+.homeheader header .logo img:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
 .homeheader header .logo img {
     position: fixed;
     /* right: 3.55vw; */
@@ -207,16 +219,8 @@ nav ul li a:hover {
     /* height: clamp(8vw,10vh,10vh); */
 }
 
-
-
-.homeheader header .logo img:hover {
-    cursor: pointer;
-    transform: scale(0.9);
-    transition: 0.5s;
-}
-
 .container-home .hero {
-    /* position: relative; */
+    position: sticky;
     display: flex;
     /* background: #c70f0f; */
     flex-direction: column;
@@ -224,10 +228,13 @@ nav ul li a:hover {
     
     height: fit-content;
     width: 35vw;
+    
     gap: clamp(2vh,0px) ;
     /* margin-top: clamp(250px,20vh,350px) ; */
-    margin-top: 28vh;
-    margin-bottom: 50px;
+    /* margin-top: 20vw; */
+    margin-top: clamp(15vw,35vh,23vw);
+    /* margin-top: clamp(28vh); */
+    /* margin-bottom: 7vh; */
     
 }
 
@@ -253,8 +260,8 @@ nav ul li a:hover {
 
 .homeFooter .reseaux .bx {
     color: var(--main-vert);
-    font-size: 40px;
     
+    font-size: clamp(25px,4vw,40px);
     
 }
 .homeFooter .reseaux .bx:hover {
@@ -275,7 +282,7 @@ nav ul li a:hover {
 .container-home .hero .text h1 {
     width: 100%;
     text-align: right;
-    font-size: clamp(45px,5vw,90px);
+    font-size: clamp(25px,4vw,90px);
     line-height: clamp(20px,4vw,75px);
     /* line-height: 5vw; */
     
